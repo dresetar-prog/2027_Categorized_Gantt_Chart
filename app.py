@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.set_page_config(page_title="2027 Sawmurai Gantt Chart", layout="wide")
-st.title("📅 2027 Master Organizational Calendar & Program Timeline")
+st.set_page_config(page_title="🦓 2027 Sawmurai Gantt Chart", layout="wide")
+st.title("🦓 2027 Sawmurai Gantt Chart ")
 
 @st.cache_data
 def load_data():
