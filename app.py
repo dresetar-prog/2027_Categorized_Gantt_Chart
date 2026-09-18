@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 st.set_page_config(page_title="🦓 2027 Sawmurai Gantt Chart", layout="wide")
-st.title("🦓 2027 Sawmurai Gantt Chart ")
+st.title("🦓 2027 Calendar")
 
 @st.cache_data
 def load_data():
